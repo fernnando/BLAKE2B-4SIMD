@@ -11,6 +11,9 @@
   
    More information about the BLAKE2 hash function can be found at
    https://blake2.net.
+   
+   
+   VERSION BLAKE2B-4SIMD.c developed by Fernnando Dittmar.
 */
 #pragma once
 #ifndef __BLAKE2_H__
