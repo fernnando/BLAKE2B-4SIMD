@@ -9,7 +9,7 @@ CFLAGS?=-O3 -march=native -Werror=declaration-after-statement
 CFLAGS+=-std=c99
 CFLAGS+=$(NO_OPENMP_$(NO_OPENMP))
 LIBS=
-FILES=mainBlake2.c blake2b-SIMD.c
+FILES=mainBlake2.c BLAKE2B-4SIMD.c
 all: $(FILES)
 	$(CC) $(FILES) $(CFLAGS) $(LIBS) -o $(PROG)
 
